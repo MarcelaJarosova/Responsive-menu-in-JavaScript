@@ -1,0 +1,60 @@
+:root {
+    --text-color: #F8E5B9;
+    --background-color: #271D24;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------HEADER------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: var(--background-color);
+    width: 100%;
+}
+
+.logo img {
+    height: 80px;
+    padding: 10px;
+    margin-left: 30px
+}
+
+/*------NAVIGATION------*/
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+nav li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav {
+    margin-right: 30px;
+}
+
+.menu-icon {
+    display: none;
+    margin-right: 30px;
+    font-size: 40px;
+    color: var(--text-color)
+}
+/*------MAIN------*/
+.welcome-section {
+    min-height: calc(100vh - 90px);
+    background-image: url('./img/karl-chor-UvWlksgZGPE-unsplash.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
